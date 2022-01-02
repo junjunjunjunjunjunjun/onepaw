@@ -1,0 +1,152 @@
+
+.contact-form{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contact-form .background{
+    display: flex;
+    flex-wrap: wrap;
+    background: #eee;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-size: 2vw;
+    /* box-shadow: .2rem .2rem .3rem black; */
+}
+
+.contact-form .background .img img{
+    height: 30rem;
+    width: 25rem;
+    object-fit: cover;
+    border-radius: 2rem;
+    
+    margin-right: 1rem;
+}
+.contact-form .background .img img:hover{
+    transform: scale(0.95);
+    transition: .3s linear;
+    box-shadow: 0 0 .3rem black;
+}
+.contact-form .background form{
+    text-align: center;
+}
+.contact-form .background form input{
+    width: 22rem;
+    height: 2.5rem;
+    border-radius: 1rem;
+    /* outline: none; */
+    border: none;
+    margin: .5rem .3rem;
+    padding: 5px;
+    font-size: 17px;
+}
+.contact-form textarea{
+    border: none;
+}
+
+.contact-form .background form .input i{
+    font-size: 1.8rem;
+    color: #333;
+}
+.contact-form .background form input:focus{
+    border: 2px solid red;
+}
+.contact-form .background form input:focus i{
+    color: red;
+}
+.contact-form .background form .input textarea{
+    resize: none;
+    width: 22rem;height: 10rem;
+    margin-left: 1.7rem;
+    margin-top: .5rem;
+    border-radius: 1rem;
+    padding: .5rem;
+    font-size: 17px;
+}
+.contact-form .background form textarea:focus{
+    border: 2px solid red;
+}
+
+.contact-form .background form .submit input{
+    width: 10rem;
+    margin-left: 12rem;
+    border-radius: 0;
+    cursor: pointer;
+    color: #000;
+    background: white;
+    border-radius: 1rem;
+}
+.contact-form .background form .submit input:hover{
+    background: #000;
+    color: #eee;
+    letter-spacing: 2px;
+    transition: .3s linear;
+}
+
+.contact-form .background form .icons{
+    margin-top: 2rem;
+    color: #000;
+}
+
+.contact-form .background form .icons i{
+    margin: 0 15px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.contact-form .background form .icons i:hover{
+    transform: scale(1.16);
+    transition: .3s linear;
+    color: red;
+}
+.contact-form .background .span{
+    background: #000;
+    width: 25rem;
+    height: .5rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
+.contact-form .background form .icons i:hover~.span{
+    background: red;
+}
+.contact-form .background .span:hover{
+    background: black;
+}
+.contact-form .background form .i{
+    margin-top: 1.5rem;
+}
+
+.contact-form .background form .i a{
+    margin: 0 .5rem;
+    font-size: 14px;
+    color: #000;
+}
+.contact-form .background form .i a:hover i{
+    transform: scale(1.16);
+    transition: .3s linear;
+    color: red;
+}
+
+@media (max-width: 850px){
+    *{
+        font-size: 2.5vw;
+    }
+    .contact-form .background .img, .icons div{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact-form form, .i{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 550px){
+    *{
+        font-size: 3.5vw;
+    }
+    .contact-form .background .img{
+        display: none;
+    }
+}

@@ -1,0 +1,156 @@
+/*background vdo*/
+.vdo-container{
+    height: 50vh; 
+    width: 100%;
+    position: relative;
+}
+#background-video{
+
+    
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+
+}
+.vdo{
+
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  top: 5rem;
+  /* margin-top: 30vh; */
+}
+#button{
+    
+    width: 170px;
+    height: 80px;
+    text-align: center;
+    background-color: #ecb30a;
+    color: white;
+    border-radius: 15px;
+    border: 0px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+#button:hover{
+    background: #8ab7dd;
+    color: white;
+    animation: jello; 
+    animation-duration: 1s;
+    
+    
+}
+
+
+
+/* Sponsor side */
+.sponsor{
+    background: #eee;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding-top: 50px;
+    position: relative;
+}
+
+.sponsor img{
+    width: 100%;
+    /* height: 200px; */
+    
+}
+.sponsor-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 3 auto;
+    
+}
+
+
+/*How it works*/
+.tittle-work{
+    margin-top: 50px;
+    text-align: center;
+}
+.tittle-work h1{
+    color: #4D4D4D;
+    font-size: 5vw;
+}
+.tittle-work p{
+    color: #4D4D4D;
+    font-size: 2.5vw;
+}
+
+.grid {
+    margin-top: 10vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    grid-column-gap: 5vw;
+    grid-row-gap: 7vh;
+    padding-bottom: 5vh;
+}
+.grid h1{
+    font-size: 5vw;
+    color: #4D4D4D;
+}
+.grid h2{
+    font-size: 3vw;
+    color: #4D4D4D;
+}
+
+.grid p{
+    font-size: 2vw;
+    color: #4D4D4D;
+}
+.how-work{
+    background-image: url(../img/aboutpet/backgroundhow.png);
+    width: 100%;
+    /* height: 800px; */
+    background-size: cover;
+    
+}
+
+/*You're in good hands*/
+.hand{
+    margin: 0 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding-top: 5vh;
+    text-align: center;
+    background-color: #eee;
+}
+.hand-contain{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+.hand h1{
+    color: #ecb30a;
+}
+.hand h2{
+    font-size: 3vw;
+    color: #4D4D4D;
+
+}
+.hand p{
+    font-size: 1.5vw;
+    color: #4D4D4D;
+
+}
